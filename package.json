@@ -1,0 +1,22 @@
+{
+  "name": "mvcp",
+  "version": "0.0.1",
+  "description": "Model, View, Controller, Projector",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvcpjs/mvcp.git"
+  },
+  "keywords": [
+    "MVCP"
+  ],
+  "author": "Cody B. Daig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvcpjs/mvcp/issues"
+  },
+  "homepage": "https://github.com/mvcpjs/mvcp#readme"
+}
