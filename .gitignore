@@ -1,3 +1,6 @@
+# MVCP Specific Ignores
+config/local.js
+
 # Logs
 logs
 *.log
