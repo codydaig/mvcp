@@ -6,12 +6,10 @@
 var path = require('path');
 var Promise = require('bluebird');
 
-var db = require(path.resolve('./core/sequelize.js'));
+var db = require(path.resolve('./core/db.js'));
 
-db.sequelize.sync().then(function(){
-  var app = require(path.resolve('./core/express.js'));
-  app.listen(3000, function(err){
-    if(err) console.error(err);
-    console.log("Listening on port 3000");
-  });
+var app = require(path.resolve('./core/express.js'));
+app.listen(3000, function(err){
+  if(err) console.error(err);
+  console.log("Listening on port 3000");
 });
