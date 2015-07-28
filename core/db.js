@@ -17,4 +17,6 @@ var knex = require('knex')({
 
 var bookshelf = require('bookshelf')(knex);
 
+bookshelf.models = {};
+
 module.exports = exports = bookshelf;
