@@ -1,5 +1,3 @@
-
-
 var Workspace = Backbone.Router.extend({
 
   routes: {

@@ -16,6 +16,7 @@ var app = express();
 
 // Set-up the Static Public Folder
 app.use('/public', express.static(path.resolve('./public')));
+app.use('/modules/core/client', express.static(path.resolve('./modules/core/client')));
 
 config.server.routes.forEach(function(route){
   require(path.resolve(route))(app);
