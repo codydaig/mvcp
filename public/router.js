@@ -8,6 +8,7 @@ var Workspace = Backbone.Router.extend({
 
   help: function() {
     console.log("HELP!!");
+    window.app.get('navbar').add(new NavbarItem());
   }
 
 
@@ -15,4 +16,4 @@ var Workspace = Backbone.Router.extend({
 
 new Workspace();
 
-Backbone.history.start({pushState: true});
+// Backbone.history.start({pushState: true});
