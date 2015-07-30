@@ -1,6 +1,6 @@
 # MVCP
 
-## MVCP?
+## What does MVCP stand for?
 M - Model
 V - View
 C - Controller
@@ -8,6 +8,6 @@ P - Projector
 
 ## Core Components
 * Node.js
-* MongoDB
+* Bookshelf.js/Knex (SQL)
 * Express.js
 * Backbone.js
